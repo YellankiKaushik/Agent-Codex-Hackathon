@@ -4,12 +4,6 @@
 
  [GitHub Repository](https://github.com/YellankiKaushik/Agent-Codex-Hackathon) | [Judge Guide](./docs/JUDGES_GUIDE.md) | [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md)
 
-Quick links:
-
-- [Launch agent](https://scheme-seva-agent.vercel.app/app)
-- [Browse schemes](https://scheme-seva-agent.vercel.app/schemes)
-- [Check integrations](https://scheme-seva-agent.vercel.app/debug/integrations)
-- [View architecture](https://scheme-seva-agent.vercel.app/architecture)
 
 ## One-Minute Overview
 
