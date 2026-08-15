@@ -1,0 +1,30 @@
+# SchemeSeva Master Documentation Archive Notice
+
+This file previously served as a broad planning and hackathon notes document. It has been superseded by the final repository documentation package.
+
+Current source-of-truth docs:
+
+- [README.md](../README.md)
+- [TECHNICAL_DOCUMENTATION.md](./TECHNICAL_DOCUMENTATION.md)
+- [JUDGES_GUIDE.md](./JUDGES_GUIDE.md)
+
+## Current Facts To Use
+
+- Project name: SchemeSeva.
+- Tagline: Find government schemes you may likely qualify for - and get alerted when new matches appear.
+- Live demo: https://scheme-seva-agent.vercel.app/
+- GitHub repository: https://github.com/YellankiKaushik/Scheme-Seva-Agent
+- Current catalog: 28 verified Central + Telangana schemes.
+- Main app route: `/app`.
+- Scheme catalog route: `/schemes`.
+- Architecture route: `/architecture`.
+- Integration diagnostics route: `/debug/integrations`.
+- Mandatory stack: Mastra-style workflow adapter, Qdrant retrieval/memory, and Enkrypt AI validation.
+- Supporting stack: OpenRouter, Gemini embeddings, Langfuse, Upstash Redis, Vercel, TanStack Start, Vite, Nitro, React, and TypeScript.
+- Supabase is optional fallback only.
+- Reports use likely eligibility wording and are guidance only.
+- Final eligibility and application steps must be confirmed on official portals.
+- The app does not collect Aadhaar numbers or bank account numbers.
+- The app does not automatically submit applications.
+
+Use the final docs listed above for any public, judging, or developer-facing description of the project.
