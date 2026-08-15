@@ -2,7 +2,7 @@
 
 **Find government schemes you may likely qualify for - and get alerted when new matches appear.**
 
-[Live Demo](https://scheme-seva-agent.vercel.app/) | [GitHub Repository](https://github.com/YellankiKaushik/Agent-Codex-Hackathon) | [Judge Guide](./docs/JUDGES_GUIDE.md) | [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md)
+ [GitHub Repository](https://github.com/YellankiKaushik/Agent-Codex-Hackathon) | [Judge Guide](./docs/JUDGES_GUIDE.md) | [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md)
 
 Quick links:
 
