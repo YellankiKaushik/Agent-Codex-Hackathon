@@ -21,7 +21,8 @@ export function createOpenRouterProvider(apiKey: string) {
     supportsStructuredOutputs: false,
     headers: {
       Authorization: `Bearer ${apiKey}`,
-      "HTTP-Referer": process.env.SCHEMESEVA_SITE_URL ?? "http://localhost:3000",
+      "HTTP-Referer":
+        process.env.SCHEMESEVA_SITE_URL ?? "https://agent-codex-hackathon.vercel.app/",
       "X-Title": "SchemeSeva",
     },
   });
