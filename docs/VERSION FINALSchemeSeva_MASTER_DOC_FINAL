@@ -12,8 +12,8 @@ Current source-of-truth docs:
 
 - Project name: SchemeSeva.
 - Tagline: Find government schemes you may likely qualify for - and get alerted when new matches appear.
-- Live demo: https://scheme-seva-agent.vercel.app/
-- GitHub repository: https://github.com/YellankiKaushik/Scheme-Seva-Agent
+- Live demo: https://agent-codex-hackathon.vercel.app/
+- GitHub repository: https://github.com/YellankiKaushik/Agent-Codex-Hackathon
 - Current catalog: 28 verified Central + Telangana schemes.
 - Main app route: `/app`.
 - Scheme catalog route: `/schemes`.

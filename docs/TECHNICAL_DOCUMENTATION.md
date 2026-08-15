@@ -6,9 +6,9 @@
 
 **Tagline:** Find government schemes you may likely qualify for - and get alerted when new matches appear.
 
-**Live demo:** https://scheme-seva-agent.vercel.app/
+**Live demo:** https://agent-codex-hackathon.vercel.app/
 
-**GitHub repository:** https://github.com/YellankiKaushik/Scheme-Seva-Agent
+**GitHub repository:** https://github.com/YellankiKaushik/Agent-Codex-Hackathon
 
 **Author / team:** Kaushik / YellankiKaushik
 
@@ -494,7 +494,7 @@ SchemeSeva follows a data-minimization approach:
 
 ## 20. Deployment Architecture
 
-The app is deployed to Vercel at https://scheme-seva-agent.vercel.app/.
+The app is deployed to Vercel at https://agent-codex-hackathon.vercel.app/.
 
 `vercel.json` configures:
 
@@ -530,7 +530,7 @@ pnpm run lint
 
 ## 22. User Demo Walkthrough
 
-1. Open https://scheme-seva-agent.vercel.app/.
+1. Open https://agent-codex-hackathon.vercel.app/.
 2. Open `/schemes` and verify 28 Central + Telangana schemes.
 3. Open `/debug/integrations` and confirm provider cards.
 4. Open `/app`.

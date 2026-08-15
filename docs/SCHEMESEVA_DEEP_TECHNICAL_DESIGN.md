@@ -826,7 +826,7 @@ Section closeout: Open questions: retention and deletion completeness. Risks: no
 
 ## `VIEW-012 [M] Deployment View`
 
-Current deployment: Vercel production at `https://scheme-seva-agent.vercel.app/`. Build command: `pnpm build`. Install command: `pnpm install --frozen-lockfile`. `vercel.json` sets `NITRO_PRESET=vercel`. External services are configured through environment variables.
+Current deployment: Vercel production at `https://agent-codex-hackathon.vercel.app/`. Build command: `pnpm build`. Install command: `pnpm install --frozen-lockfile`. `vercel.json` sets `NITRO_PRESET=vercel`. External services are configured through environment variables.
 
 Regions, availability zones, private networks, and load balancers are managed by Vercel/providers and not specified in the repository.
 
@@ -1787,7 +1787,7 @@ Not implemented as a separate cache. Upstash is used for rate limiting, not app 
 
 ## `INFRA-011 [M] DNS and Certificate Architecture`
 
-The live demo uses Vercel-managed DNS/certificates for `scheme-seva-agent.vercel.app`. Custom DNS is not documented.
+The live demo uses Vercel-managed DNS/certificates for `agent-codex-hackathon.vercel.app`. Custom DNS is not documented.
 
 ## `INFRA-012 [M] Infrastructure Identity and Access`
 
@@ -1821,7 +1821,7 @@ Section closeout: Open questions: provider region/account/security details. Risk
 
 ## `DEV-001 [M] Repository Catalogue`
 
-Repository: `https://github.com/YellankiKaushik/Scheme-Seva-Agent`. Local workspace contains the SchemeSeva app, docs, scripts, source, Supabase migrations, and package metadata.
+Repository: `https://github.com/YellankiKaushik/Agent-Codex-Hackathon`. Local workspace contains the SchemeSeva app, docs, scripts, source, Supabase migrations, and package metadata.
 
 ## `DEV-002 [M] Repository Structure`
 
@@ -2056,7 +2056,7 @@ Section closeout: Open questions: automated acceptance. Risks: live provider sta
 | Environment | Purpose | URL | Status |
 | --- | --- | --- | --- |
 | Local dev | Development and fallback demo | `http://localhost:<vite-port>` | Supported |
-| Vercel production demo | Public demo | `https://scheme-seva-agent.vercel.app/` | Live |
+| Vercel production demo | Public demo | `https://agent-codex-hackathon.vercel.app/` | Live |
 | Preview deployments | Vercel previews | TBD | Platform-supported, not documented |
 
 Section closeout: Open questions: preview policy. Risks: env var mismatch. Decisions required: environment governance. Evidence required: Vercel config. Responsible owner: Kaushik / YellankiKaushik.
@@ -2196,7 +2196,7 @@ Section closeout: Open questions: deprecated routes/features. Risks: stale publi
 | Service name | SchemeSeva |
 | Purpose | Government scheme discovery guidance |
 | Owner | Kaushik / YellankiKaushik |
-| Repository | `https://github.com/YellankiKaushik/Scheme-Seva-Agent` |
+| Repository | `https://github.com/YellankiKaushik/Agent-Codex-Hackathon` |
 | Environment | Local, Vercel production demo |
 | Dependencies | Qdrant, Featherless, Enkrypt, OpenRouter, Gemini, Langfuse, Upstash, optional Supabase |
 | Criticality | Demo-critical |
@@ -2482,7 +2482,7 @@ Section closeout: Open questions: target traffic. Risks: unknown capacity. Decis
 ## `LIFE-003 [C] Installation Procedure`
 
 ```bash
-git clone https://github.com/YellankiKaushik/Scheme-Seva-Agent.git
+git clone https://github.com/YellankiKaushik/Agent-Codex-Hackathon.git
 cd Scheme-Seva-Agent
 pnpm install
 cp .env.example .env.local

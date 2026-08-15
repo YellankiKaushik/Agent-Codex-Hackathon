@@ -1,8 +1,8 @@
 # SchemeSeva Judge Guide
 
-**Live demo:** https://scheme-seva-agent.vercel.app/
+**Live demo:** https://agent-codex-hackathon.vercel.app/
 
-**Repository:** https://github.com/YellankiKaushik/Scheme-Seva-Agent
+**Repository:** https://github.com/YellankiKaushik/Agent-Codex-Hackathon
 
 **Tagline:** Find government schemes you may likely qualify for - and get alerted when new matches appear.
 

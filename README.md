@@ -2,8 +2,14 @@
 
 **Find government schemes you may likely qualify for - and get alerted when new matches appear.**
 
- [GitHub Repository](https://github.com/YellankiKaushik/Agent-Codex-Hackathon) | [Judge Guide](./docs/JUDGES_GUIDE.md) | [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md)
+[Live Demo](https://agent-codex-hackathon.vercel.app/) | [GitHub Repository](https://github.com/YellankiKaushik/Agent-Codex-Hackathon) | [Judge Guide](./docs/JUDGES_GUIDE.md) | [Technical Documentation](./docs/TECHNICAL_DOCUMENTATION.md)
 
+Quick links:
+
+- [Launch agent](https://agent-codex-hackathon.vercel.app/app)
+- [Browse schemes](https://agent-codex-hackathon.vercel.app/schemes)
+- [Check integrations](https://agent-codex-hackathon.vercel.app/debug/integrations)
+- [View architecture](https://agent-codex-hackathon.vercel.app/architecture)
 
 ## One-Minute Overview
 
@@ -506,10 +512,10 @@ VITE_SUPABASE_PUBLISHABLE_KEY=your_optional_publishable_key
 
 ## Demo Guide For Judges
 
-1. Open the [live demo](https://scheme-seva-agent.vercel.app/).
-2. Open [`/schemes`](https://scheme-seva-agent.vercel.app/schemes) and confirm 28 verified Central + Telangana schemes.
-3. Open [`/debug/integrations`](https://scheme-seva-agent.vercel.app/debug/integrations) and review Mastra, Qdrant, Featherless AI, Enkrypt AI, OpenAI, OpenRouter, Gemini, Langfuse, Upstash, and optional Supabase status.
-4. Open [`/app`](https://scheme-seva-agent.vercel.app/app).
+1. Open the [live demo](https://agent-codex-hackathon.vercel.app/).
+2. Open [`/schemes`](https://agent-codex-hackathon.vercel.app/schemes) and confirm 28 verified Central + Telangana schemes.
+3. Open [`/debug/integrations`](https://agent-codex-hackathon.vercel.app/debug/integrations) and review Mastra, Qdrant, Featherless AI, Enkrypt AI, OpenAI, OpenRouter, Gemini, Langfuse, Upstash, and optional Supabase status.
+4. Open [`/app`](https://agent-codex-hackathon.vercel.app/app).
 5. Click the **Farmer** demo profile.
 6. Click **Find schemes**.
 7. Verify badges such as `Retrieval: qdrant-vector`, `Reasoning: featherless`, `Memory: qdrant`, `Memory write: success`, `Safety: enkrypt`, and `Workflow: adapter` when the live providers are active.
@@ -565,7 +571,7 @@ Lint is useful as a report-only check. If it fails due existing repo-wide format
 
 SchemeSeva is hosted on Vercel at:
 
-https://scheme-seva-agent.vercel.app/
+https://agent-codex-hackathon.vercel.app/
 
 The repository includes `vercel.json` with:
 

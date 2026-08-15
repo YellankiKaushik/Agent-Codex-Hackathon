@@ -13,6 +13,8 @@ import appCss from "../style.css?url";
 import "../lib/fonts";
 import { reportAppError } from "../lib/app-error-reporting";
 
+const productionSiteUrl = "https://agent-codex-hackathon.vercel.app/";
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -92,9 +94,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Describe your situation in plain English. Get a personalised, source-grounded list of government schemes you may likely qualify for.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: productionSiteUrl },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "canonical", href: productionSiteUrl },
       {
         rel: "stylesheet",
         href: appCss,
